@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game Statistics Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ludo WIN rate Strike Calculator</h1>
+        <form id="ludo-form" action="results.html" method="post">
+            <input type="number" id="num-players-input" name="numPlayers" placeholder="Enter number of players" required><br>
+            <div id="players-container"></div>
+            <button type="button" onclick="addPlayerInputs()">Add Players</button><br><br>
+            <button type="button" onclick="submitForm()">Calculate Stats</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

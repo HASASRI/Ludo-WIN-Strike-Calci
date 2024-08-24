@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #090979;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #0a0726;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Increased width for more space */
+    text-align: center;
+}
+
+h1 {
+    color: #170d74;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#num-players-input {
+    width: 25%; /* Width for number of players input */
+}
+
+#players-container input {
+    width: 90%; /* Width for other inputs */
+}
+
+button {
+    padding: 10px;
+    width: 65%;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #170d74;
+    color: white;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: #ffeeba; /* Highlight the winning percentage */
+}
+
+.bar {
+    height: 20px;
+    background-color: #28a745;
+}
